@@ -30,9 +30,9 @@ Please implement the following stories.
 
 ***Example***
 
-customer_id | customer_first_name | category_id | category_name
---- | --- | --- | --- | ---
-1 |John | 1 | Bouquets
+customer_id|customer_first_name|category_id |category_name
+----|----|----|----
+1|John|1|Bouquets
 
 5. Use active record methods to achieve the result above.
 
