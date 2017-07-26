@@ -1,0 +1,19 @@
+<div class="row">
+<div class="col-md-6 col-md-offset-3 navbar navbar-special">
+  <br>
+  <h2>По инфе:</h2>
+  <br>
+  Пользователь: <%= current_customer.email %>
+  <br>
+  В наших рядах с: <%= current_customer.created_at %>
+  <br>
+  <h2>Заказы:</h2>
+  <br>
+  Пока ничего не заказывал
+  Номер заказа: <%= current_customer.orders[0].id%>
+  <br>
+  <br>
+
+
+</div>
+</div>
